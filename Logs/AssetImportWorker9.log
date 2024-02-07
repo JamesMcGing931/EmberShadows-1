@@ -1,0 +1,618 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 15557 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+C:/Users/garet/OneDrive/Desktop/EmberShadows
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+50746
+Successfully changed project path to: C:/Users/garet/OneDrive/Desktop/EmberShadows
+C:/Users/garet/OneDrive/Desktop/EmberShadows
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21104] Host "[IP] 172.20.10.2 [Port] 0 [Flags] 2 [Guid] 3449955029 [EditorId] 3449955029 [Version] 1048832 [Id] WindowsEditor(7,GarethsLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21104] Host "[IP] 172.20.10.2 [Port] 0 [Flags] 2 [Guid] 3449955029 [EditorId] 3449955029 [Version] 1048832 [Id] WindowsEditor(7,GarethsLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 14.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/garet/OneDrive/Desktop/EmberShadows/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.3770
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004663 seconds.
+- Loaded All Assemblies, in  0.336 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.220 seconds
+Domain Reload Profiling: 554ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (124ms)
+		LoadAssemblies (116ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (121ms)
+				TypeCache.ScanAssembly (111ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (221ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (169ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (107ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.621 seconds
+Refreshing native plugins compatible for Editor in 6.21 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.608 seconds
+Domain Reload Profiling: 1225ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (415ms)
+		LoadAssemblies (317ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (172ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (129ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (608ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (467ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (298ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 7.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5680 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 99 unused Assets / (0.9 MB). Loaded Objects now: 6126.
+Memory consumption went from 216.9 MB to 216.0 MB.
+Total: 4.713600 ms (FindLiveObjects: 0.485300 ms CreateObjectMapping: 0.429300 ms MarkObjects: 3.347000 ms  DeleteObjects: 0.450800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 117259.399758 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 004.png
+  artifactKey: Guid(7f1220bde5664934a9f3525b6a0a2f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 004.png using Guid(7f1220bde5664934a9f3525b6a0a2f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530eb915e8227f30908f6e1360727947') in 0.112198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 020.png
+  artifactKey: Guid(b6f8f2a1f3d185847bc994125777f6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 020.png using Guid(b6f8f2a1f3d185847bc994125777f6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9788c2d329f21f54b8bdeb4b1ab942') in 0.026915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 010.png
+  artifactKey: Guid(b4b776117f8d00a4787204240a18d771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 010.png using Guid(b4b776117f8d00a4787204240a18d771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65f37c41d75ba906b8b8b77d1ee08db') in 0.025915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 007.png
+  artifactKey: Guid(0a30b0d4176477840a353f32ad0bd498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 007.png using Guid(0a30b0d4176477840a353f32ad0bd498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cedc89b2aad5a303bf629b272dac3ca6') in 0.024346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 035.png
+  artifactKey: Guid(fb900408c1cfb0f4aa20fa66b1df6c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 035.png using Guid(fb900408c1cfb0f4aa20fa66b1df6c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39f5f56d85e5d3fbeb77486cfc786d6') in 0.027579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 017.png
+  artifactKey: Guid(f5d256e12da25b54399f6f25444195b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 017.png using Guid(f5d256e12da25b54399f6f25444195b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edccd5f9d0480ed876ed0bb6e1e5a799') in 0.025119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.419076 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 041.png
+  artifactKey: Guid(b2f1726154f97a14b87d566092c741bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 041.png using Guid(b2f1726154f97a14b87d566092c741bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a0e758172e392ed87632af2c55409e') in 0.026461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007860 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 047.png
+  artifactKey: Guid(28ff9f9c5ac80e54891fe495992234a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 047.png using Guid(28ff9f9c5ac80e54891fe495992234a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33412ddb72226daff5a199e7d050afb1') in 0.031078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.833892 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 054.png
+  artifactKey: Guid(948c1be26960dee428f38afc5103cfe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 054.png using Guid(948c1be26960dee428f38afc5103cfe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d299ed7459fb30ec975a2fa656b8ae') in 0.024247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 059.png
+  artifactKey: Guid(71c34df44a8f5db4fa0e427fc78d6eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 059.png using Guid(71c34df44a8f5db4fa0e427fc78d6eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f126b574d5dea6923d0b14c34448567') in 0.025275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.359832 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 065.png
+  artifactKey: Guid(2338ffbeea5c25c45a8b13ca7cc370aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 065.png using Guid(2338ffbeea5c25c45a8b13ca7cc370aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f2695c25c85f2b4751d8d4a0590fa0') in 0.017920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007081 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 070.png
+  artifactKey: Guid(49feb63be36506242bbb63451986eb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 070.png using Guid(49feb63be36506242bbb63451986eb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7dc505c681d671b17e0038dd95b8b3') in 0.027194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.764922 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 077.png
+  artifactKey: Guid(c706b83049848c04bac89274c4a77025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 077.png using Guid(c706b83049848c04bac89274c4a77025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54dfe51060cb12134d4253dc7867b5c0') in 0.023706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000986 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 082.png
+  artifactKey: Guid(49792c92575865b4191886047fa03149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 082.png using Guid(49792c92575865b4191886047fa03149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbac25cadce2e2b9050bd4f69e449d09') in 0.023436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.839395 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 089.png
+  artifactKey: Guid(820d2288d3d9ae94391ac57bb424b19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 089.png using Guid(820d2288d3d9ae94391ac57bb424b19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e79010e4b007ab6d3238f3ddc16fc5') in 0.023059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 094.png
+  artifactKey: Guid(877d3b35ca6a328498e691dab9939a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 094.png using Guid(877d3b35ca6a328498e691dab9939a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2deda38904e19c1f987991800d6063') in 0.026515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.448066 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 101.png
+  artifactKey: Guid(9dbc44536a2a5994fa85e53d1b3ab9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 101.png using Guid(9dbc44536a2a5994fa85e53d1b3ab9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676270c7a9c20a82fd54b4e942ea1b24') in 0.024219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 106.png
+  artifactKey: Guid(f546546223d9cac478419310cb567cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 106.png using Guid(f546546223d9cac478419310cb567cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a0ff2bf1346c1bb7fd264ff67c837b') in 0.026691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.043000 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 113.png
+  artifactKey: Guid(45a5cc428ad9c034f920b4bc1b89d2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 113.png using Guid(45a5cc428ad9c034f920b4bc1b89d2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc29efa0701c4c427415ab9db71b201') in 0.025846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002882 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 119.png
+  artifactKey: Guid(ee57350396dc60d4187fbd96d4237242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 119.png using Guid(ee57350396dc60d4187fbd96d4237242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60be298300783b772f51cb1d416c4634') in 0.027771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.092469 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 125.png
+  artifactKey: Guid(a5f2d525c6e8738448b30f8338498e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 125.png using Guid(a5f2d525c6e8738448b30f8338498e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d916a9dbf39a61d21950ec3ca7f7ca') in 0.022149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 130.png
+  artifactKey: Guid(4a85e21917a6fc642940a3de3bb51cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 130.png using Guid(4a85e21917a6fc642940a3de3bb51cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8b2564634842866117a575c9b08dad') in 0.027041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.371484 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 137.png
+  artifactKey: Guid(dba297f6fc47a5e40b2b50f3e769f030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 137.png using Guid(dba297f6fc47a5e40b2b50f3e769f030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82babcae11706d1a47b550eefe37941') in 0.018689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004755 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 142.png
+  artifactKey: Guid(88acfb02a968c3b49b49f2136f5fdabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 142.png using Guid(88acfb02a968c3b49b49f2136f5fdabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29114ab81248ce3c7607205cd11858bc') in 0.027592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.460215 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 149.png
+  artifactKey: Guid(cea6b1427f1f9354eb87a3335429062e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 149.png using Guid(cea6b1427f1f9354eb87a3335429062e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf271fb6750ee65818c16cf8e823659b') in 0.023443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 154.png
+  artifactKey: Guid(391f1d6ad7bea624f9ff301b1e33522d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 154.png using Guid(391f1d6ad7bea624f9ff301b1e33522d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc8c4653310d9c4b027ca4342132d31') in 0.022651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.476090 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 161.png
+  artifactKey: Guid(211158ad8bd7c564e99c1d6a84fc2eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 161.png using Guid(211158ad8bd7c564e99c1d6a84fc2eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67479d191bba63cd16e5446ffbc6f13c') in 0.024165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002569 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 166.png
+  artifactKey: Guid(73ec8940795efb643897ae9454fc44e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 166.png using Guid(73ec8940795efb643897ae9454fc44e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ce6489ddaca1162384c50d0d0f47ab') in 0.024058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.350598 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 173.png
+  artifactKey: Guid(1514cf7268c6dec44a01fc911080b4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 173.png using Guid(1514cf7268c6dec44a01fc911080b4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258fa16850e77441ecd4b5ebe1a58218') in 0.025897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 178.png
+  artifactKey: Guid(322ce9f244e8a654c9437766b6d00289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 178.png using Guid(322ce9f244e8a654c9437766b6d00289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16e9f16dd8ab71c2eb37654da2860ba') in 0.025722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.852090 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 185.png
+  artifactKey: Guid(234f39b3222fe484db5305eb1603dc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 185.png using Guid(234f39b3222fe484db5305eb1603dc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5beb5f7a77ea93dafe811d2915694e0a') in 0.024221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 190.png
+  artifactKey: Guid(6e3852a55610481449fc58dc0f78d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 190.png using Guid(6e3852a55610481449fc58dc0f78d539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047c98c245c80c3ad5585e02e27b009a') in 0.023993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.421245 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 197.png
+  artifactKey: Guid(23188390482b73c49bf01b6ca72cb342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 197.png using Guid(23188390482b73c49bf01b6ca72cb342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ec512c7ee496053870e2cd14ad0942') in 0.024502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 202.png
+  artifactKey: Guid(fad0d7e8c64985349b9eff8043e5a7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 202.png using Guid(fad0d7e8c64985349b9eff8043e5a7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40dc07fee114ec471b0125a95af7321d') in 0.030971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.754311 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 209.png
+  artifactKey: Guid(3c8348052b38b5544831670050927703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 209.png using Guid(3c8348052b38b5544831670050927703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd830ccb96308f1c95b49965dbf430794') in 0.022197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000605 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 214.png
+  artifactKey: Guid(7be45e8bd15856240ae8c54017debe80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 214.png using Guid(7be45e8bd15856240ae8c54017debe80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d4497d1ed84853a757d6ba7a384e0f') in 0.023460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.897678 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 221.png
+  artifactKey: Guid(9eec08c3185dd7c41a7d81734de5c08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 221.png using Guid(9eec08c3185dd7c41a7d81734de5c08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7579d0d8c98a82292aa1e63ac202e40') in 0.021608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 226.png
+  artifactKey: Guid(06fdb324dd8f8544491334fb1341089f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 226.png using Guid(06fdb324dd8f8544491334fb1341089f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2bcf55bc2f233f6bb3ec17061713af') in 0.028546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.454116 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 233.png
+  artifactKey: Guid(c3b7e9a2f5ac63f4f99350e01cd1c6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 233.png using Guid(c3b7e9a2f5ac63f4f99350e01cd1c6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0e8f5f57cad851ccbd5b4973c1613e') in 0.021689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013070 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 239.png
+  artifactKey: Guid(560d89d770f878d43a232c8b43c0bdaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 239.png using Guid(560d89d770f878d43a232c8b43c0bdaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e84f51095c37b794f9e5738dd7e3b1') in 0.032769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.503379 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 245.png
+  artifactKey: Guid(796af0012a074ca488a0cb07f76dfb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 245.png using Guid(796af0012a074ca488a0cb07f76dfb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bcc82fd84d191a89358ce893a3620c8') in 0.025716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 250.png
+  artifactKey: Guid(81447fa282c0df0439aea02f91458a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 250.png using Guid(81447fa282c0df0439aea02f91458a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c2b4c2faab509ae0d55270d7ad5cb4') in 0.026053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.162667 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 257.png
+  artifactKey: Guid(630c99704fcc10b43a18fffe8092cff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 257.png using Guid(630c99704fcc10b43a18fffe8092cff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d11129a2e5fa2975effc29dfe304162') in 0.024569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 262.png
+  artifactKey: Guid(6c94a0fe9f9333b46b5b80a49c154a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 262.png using Guid(6c94a0fe9f9333b46b5b80a49c154a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0bee0b093f6a2388734f66ef6827979') in 0.023225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.473658 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 269.png
+  artifactKey: Guid(94e8597b2c2f171438dba5fd28665ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 269.png using Guid(94e8597b2c2f171438dba5fd28665ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2dd717f98512aba744c8c5e0611b56') in 0.021436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002611 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 274.png
+  artifactKey: Guid(82010edfc78ef494cbea2bdd2a81bd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 274.png using Guid(82010edfc78ef494cbea2bdd2a81bd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054182be395fc5a52ac80a36de7fb345') in 0.027031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.918498 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 281.png
+  artifactKey: Guid(9de5fa38edcda4a45b5f322d461a70d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 281.png using Guid(9de5fa38edcda4a45b5f322d461a70d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905bb5d06d216c0392ab2f2c9d2fa18d') in 0.022956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 286.png
+  artifactKey: Guid(a47545999ac9536488469389b54e938c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 286.png using Guid(a47545999ac9536488469389b54e938c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ad232ce474d78bece76406af8affd8') in 0.030675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.972603 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 294.png
+  artifactKey: Guid(f4e6072d873662f4e8d973ab22e86336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 294.png using Guid(f4e6072d873662f4e8d973ab22e86336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eacfe51f0924de69b044e7f23877e08') in 0.028189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001436 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 299.png
+  artifactKey: Guid(cfc2042762657ec489f2ac8323ed6529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 299.png using Guid(cfc2042762657ec489f2ac8323ed6529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e9b7ecbad55bb35df0af53cff65c9c') in 0.023267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.470552 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 305.png
+  artifactKey: Guid(5879ff7a066fc4546aba81d4e871b850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 305.png using Guid(5879ff7a066fc4546aba81d4e871b850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf35896a08768fcccc8e235a30607b4') in 0.021662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002618 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 310.png
+  artifactKey: Guid(adae2afc3d87e374f8a4363f8e662616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 310.png using Guid(adae2afc3d87e374f8a4363f8e662616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b5c8f382be54fc8f111bd28decd60e') in 0.024634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.567917 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 317.png
+  artifactKey: Guid(6efef42398b9c164982e14e5fb628727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 317.png using Guid(6efef42398b9c164982e14e5fb628727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546682f53913147138b92e4fe840ac5b') in 0.022067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003283 seconds.
+  path: Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 322.png
+  artifactKey: Guid(9105bb6d65b9e0b4a94ce4d19247665f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 4/Style 4 Icon 322.png using Guid(9105bb6d65b9e0b4a94ce4d19247665f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49075343a78c822081008150d6116412') in 0.022479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
