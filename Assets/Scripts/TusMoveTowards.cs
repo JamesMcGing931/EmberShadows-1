@@ -34,8 +34,8 @@ public class TusMoveTowards : MonoBehaviour
 
         float distanceToTarget = rangeToClose.magnitude;
 
-        Debug.Log("Distance to target = " +  distanceToTarget);
-        Debug.Log("Normalize Distance to target = " + vectorNormalize);
+        //Debug.Log("Distance to target = " +  distanceToTarget);
+        //Debug.Log("Normalize Distance to target = " + vectorNormalize);
 
         Debug.DrawRay(enemyPosition, rangeToClose, new Color(0, 0, 255));
         Debug.DrawRay(enemyPosition, vectorNormalize, new Color(255, 0, 255));
@@ -46,4 +46,5 @@ public class TusMoveTowards : MonoBehaviour
         Vector3 newPosition = enemyPosition + delta;
         return newPosition;
     }
+    
 }

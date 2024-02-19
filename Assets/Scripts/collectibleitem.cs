@@ -11,7 +11,6 @@ public class CollectableItem : MonoBehaviour
 
     private bool isCollected = false;
     private bool inRange = false;
-    public int fireflyCount;
     public Text fireflyText;
 
     private void OnTriggerEnter2D(Collider2D other)

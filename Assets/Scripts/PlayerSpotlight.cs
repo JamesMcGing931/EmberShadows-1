@@ -4,6 +4,7 @@ using UnityEngine.Rendering.Universal;
 
 public class PlayerSpotlight : MonoBehaviour
 {
+    public ItemManager im;
     public Light2D spotlight2D; // Change the variable type to Light2D
 
     void Start()
@@ -19,5 +20,13 @@ public class PlayerSpotlight : MonoBehaviour
     void Update()
     {
         spotlight2D.transform.rotation = transform.rotation;
+        if(im.flyCount == -1)
+        {
+            Destroy(gameObject);
+            
+            
+        }
     }
+
+    
 }
