@@ -15,7 +15,7 @@ C:/Users/garet/OneDrive/Desktop/EmberShadows
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57452
+55770
 Successfully changed project path to: C:/Users/garet/OneDrive/Desktop/EmberShadows
 C:/Users/garet/OneDrive/Desktop/EmberShadows
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/garet/OneDrive/Desktop/EmberShadows
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13708] Host "[IP] 172.20.10.2 [Port] 0 [Flags] 2 [Guid] 1944969092 [EditorId] 1944969092 [Version] 1048832 [Id] WindowsEditor(7,GarethsLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25432] Host "[IP] 172.20.10.2 [Port] 0 [Flags] 2 [Guid] 233080164 [EditorId] 233080164 [Version] 1048832 [Id] WindowsEditor(7,GarethsLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [13708] Host "[IP] 172.20.10.2 [Port] 0 [Flags] 2 [Guid] 1944969092 [EditorId] 1944969092 [Version] 1048832 [Id] WindowsEditor(7,GarethsLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25432] Host "[IP] 172.20.10.2 [Port] 0 [Flags] 2 [Guid] 233080164 [EditorId] 233080164 [Version] 1048832 [Id] WindowsEditor(7,GarethsLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 219.22 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 17.36 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004932 seconds.
-- Loaded All Assemblies, in  0.578 seconds
+Registered in 0.005578 seconds.
+- Loaded All Assemblies, in  0.338 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.244 seconds
-Domain Reload Profiling: 820ms
-	BeginReloadAssembly (127ms)
+Domain Reload Profiling: 580ms
+	BeginReloadAssembly (107ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (349ms)
-		LoadAssemblies (124ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (133ms)
+		LoadAssemblies (104ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (347ms)
-			TypeCache.Refresh (346ms)
-				TypeCache.ScanAssembly (334ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (115ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
 	FinalizeReload (244ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (191ms)
+		SetupLoadedEditorAssemblies (187ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (114ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 820ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.196 seconds
-Refreshing native plugins compatible for Editor in 6.45 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.879 seconds
+Refreshing native plugins compatible for Editor in 10.10 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.604 seconds
-Domain Reload Profiling: 3797ms
-	BeginReloadAssembly (125ms)
+- Finished resetting the current domain, in  0.961 seconds
+Domain Reload Profiling: 1835ms
+	BeginReloadAssembly (182ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (2995ms)
-		LoadAssemblies (2889ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (592ms)
+		LoadAssemblies (434ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (176ms)
-			TypeCache.Refresh (142ms)
-				TypeCache.ScanAssembly (128ms)
-			ScanForSourceGeneratedMonoScriptInfo (23ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (606ms)
+		AnalyzeDomain (262ms)
+			TypeCache.Refresh (216ms)
+				TypeCache.ScanAssembly (196ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (962ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (468ms)
+		SetupLoadedEditorAssemblies (763ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
+			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (310ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (523ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 6.58 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 8.27 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5813 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 112 unused Assets / (1.0 MB). Loaded Objects now: 6259.
-Memory consumption went from 220.4 MB to 219.4 MB.
-Total: 4.746400 ms (FindLiveObjects: 0.512600 ms CreateObjectMapping: 0.246900 ms MarkObjects: 3.286600 ms  DeleteObjects: 0.699200 ms)
+Unloading 5817 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 112 unused Assets / (1.0 MB). Loaded Objects now: 6263.
+Memory consumption went from 225.7 MB to 224.7 MB.
+Total: 7.299700 ms (FindLiveObjects: 0.632800 ms CreateObjectMapping: 0.627900 ms MarkObjects: 5.430400 ms  DeleteObjects: 0.607400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -181,66 +181,50 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 104221.577821 seconds.
-  path: Assets/Scenes/Main Menue.unity
-  artifactKey: Guid(31b73ded3ef8b8d4d8d0a3ceb47593b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main Menue.unity using Guid(31b73ded3ef8b8d4d8d0a3ceb47593b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfa7272074a7a9bf2fa1ae18bc6320d') in 0.002743 seconds
+  Time since last request: 361195.037932 seconds.
+  path: Assets/Dungeon Tileset - Fantasy Dreamland Reborn/Dungeon Tileset - Fantasy Dreamland Reborn/RPG Maker MZ (48x48)/characters/!FDR_Dungeon_Torches02.png
+  artifactKey: Guid(fa3bc9963f7734c4c920fb815702ee63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tileset - Fantasy Dreamland Reborn/Dungeon Tileset - Fantasy Dreamland Reborn/RPG Maker MZ (48x48)/characters/!FDR_Dungeon_Torches02.png using Guid(fa3bc9963f7734c4c920fb815702ee63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc636e248bfc73fb72f7581e6c96f0ed') in 0.128700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Dungeon Tileset - Fantasy Dreamland Reborn/Dungeon Tileset - Fantasy Dreamland Reborn/RPG Maker MZ (48x48)/characters
+  artifactKey: Guid(ce308831cf7244746b1af7556c1a1efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tileset - Fantasy Dreamland Reborn/Dungeon Tileset - Fantasy Dreamland Reborn/RPG Maker MZ (48x48)/characters using Guid(ce308831cf7244746b1af7556c1a1efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d37d77e182234764d7fe7667516b4e9') in 0.000797 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbaf86c3f03648c5e793ca5c7378c2ed') in 0.000568 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 49.985257 seconds.
-  path: Assets/Grass.prefab
-  artifactKey: Guid(995e4ae08a387e14b86c294e56afca7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Grass.prefab using Guid(995e4ae08a387e14b86c294e56afca7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbcb3fc10349a768bc4c68ea97d239bf') in 0.221733 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 378.091563 seconds.
-  path: Assets/Tilesets/hole- transparency.png
-  artifactKey: Guid(fa7abf045908432468f68e500ad6963f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/hole- transparency.png using Guid(fa7abf045908432468f68e500ad6963f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe3c0497f327a4e63714bd6949bc526') in 0.076297 seconds
+  Time since last request: 0.000101 seconds.
+  path: Assets/Dungeon Tileset - Fantasy Dreamland Reborn/Dungeon Tileset - Fantasy Dreamland Reborn/RPG Maker MZ (48x48)/characters/FDR_Dungeon_Puzzles01.png
+  artifactKey: Guid(700cdb6813fe6fc49a31d0947b882102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tileset - Fantasy Dreamland Reborn/Dungeon Tileset - Fantasy Dreamland Reborn/RPG Maker MZ (48x48)/characters/FDR_Dungeon_Puzzles01.png using Guid(700cdb6813fe6fc49a31d0947b882102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad48b24846a282f1cd5b7f147c599c9a') in 0.037392 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Tilesets/wall1- flat grass.png
-  artifactKey: Guid(d0d75ed4042ece542861cab153e84ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/wall1- flat grass.png using Guid(d0d75ed4042ece542861cab153e84ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f0ca068e7700f925712da915119038') in 0.027730 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Dungeon Tileset - Fantasy Dreamland Reborn/Dungeon Tileset - Fantasy Dreamland Reborn/RPG Maker MZ (48x48)/characters/$FDR_Dungeon_Doors.png
+  artifactKey: Guid(8e22aa0551775044281f831ee0844163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tileset - Fantasy Dreamland Reborn/Dungeon Tileset - Fantasy Dreamland Reborn/RPG Maker MZ (48x48)/characters/$FDR_Dungeon_Doors.png using Guid(8e22aa0551775044281f831ee0844163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e30396fe265943b6646b87b82cf52e8') in 0.028229 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Tilesets/Tileset-Terrain-new grass.png
-  artifactKey: Guid(b86af2ca4b094564eb5c1d35e305e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/Tileset-Terrain-new grass.png using Guid(b86af2ca4b094564eb5c1d35e305e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142acaf32897c6e3c0627a7e20aef12e') in 0.031444 seconds
+  Time since last request: 7.888615 seconds.
+  path: Assets/Dungeon Tileset - Fantasy Dreamland Reborn/Dungeon Tileset - Fantasy Dreamland Reborn/RPG Maker VX Ace/characters/!FDR_Dungeon_Torches02.png
+  artifactKey: Guid(5dff362832d84c94e8650b0f0af7001e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tileset - Fantasy Dreamland Reborn/Dungeon Tileset - Fantasy Dreamland Reborn/RPG Maker VX Ace/characters/!FDR_Dungeon_Torches02.png using Guid(5dff362832d84c94e8650b0f0af7001e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1603ad642936d5726b55a88ca8b35600') in 0.023967 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Tilesets/wall1 - transparency.png
-  artifactKey: Guid(6b212753085f0bd4c8711c7a298336fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/wall1 - transparency.png using Guid(6b212753085f0bd4c8711c7a298336fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66043dac0dc0d53f8c5d5b6ef64c400') in 0.027408 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Tilesets/hole-main.png
-  artifactKey: Guid(9da1a69856495ce44b5803a9160850fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilesets/hole-main.png using Guid(9da1a69856495ce44b5803a9160850fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d8c11b326743eb6350a444678726e1') in 0.022946 seconds
+  Time since last request: 0.000028 seconds.
+  path: Assets/Dungeon Tileset - Fantasy Dreamland Reborn/Dungeon Tileset - Fantasy Dreamland Reborn/RPG Maker VX Ace/characters/FDR_Dungeon_Puzzles03.png
+  artifactKey: Guid(70c795ed273264740ab7af1043e03c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Tileset - Fantasy Dreamland Reborn/Dungeon Tileset - Fantasy Dreamland Reborn/RPG Maker VX Ace/characters/FDR_Dungeon_Puzzles03.png using Guid(70c795ed273264740ab7af1043e03c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343d980dfc88f012904621266ae652bf') in 0.027788 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout

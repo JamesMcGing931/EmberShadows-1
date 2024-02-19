@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2378819297496923871}
   - component: {fileID: 7892068900091039209}
-  - component: {fileID: 9183307879634007019}
   m_Layer: 0
   m_Name: Light 2D (4)
   m_TagString: Untagged
@@ -83,28 +82,6 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
---- !u!114 &9183307879634007019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2701196438179674296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bf978ce8daf0754fb288488ce544812, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spotlight: {fileID: 7892068900091039209}
-  minIntensity: 0.5
-  maxIntensity: 1
-  minOuterRadius: 0.5
-  maxOuterRadius: 0.6
-  pulseSpeed: 0.2
-  blinkDuration: 0.1
-  fastBlinkInterval: 0.5
-  fastBlinkCount: 2
-  slowBlinkInterval: 2
 --- !u!1 &9129100037149785227
 GameObject:
   m_ObjectHideFlags: 0
@@ -117,10 +94,8 @@ GameObject:
   - component: {fileID: 355743427418147825}
   - component: {fileID: 3397839402474892249}
   - component: {fileID: 7355666075198387106}
-  - component: {fileID: 6468540067830460329}
   - component: {fileID: 4334412506725192560}
   - component: {fileID: 3643763624967342442}
-  - component: {fileID: 1472396632716265217}
   - component: {fileID: 1035602004551436913}
   m_Layer: 6
   m_Name: Player
@@ -259,21 +234,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &6468540067830460329
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9129100037149785227}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87415acecaffecf4db71672a31edb5a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 3
-  rb: {fileID: 7355666075198387106}
-  animator: {fileID: 4334412506725192560}
 --- !u!95 &4334412506725192560
 Animator:
   serializedVersion: 5
@@ -391,19 +351,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1472396632716265217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9129100037149785227}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48b4e359da557f146971f0097d20fc15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spotlight2D: {fileID: 7892068900091039209}
 --- !u!114 &1035602004551436913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -430,7 +377,7 @@ MonoBehaviour:
   - {x: 0.14685488, y: -0.6740794, z: 0}
   m_ShapePathHash: 1516906305
   m_Mesh: {fileID: 0}
-  m_InstanceId: 70450
+  m_InstanceId: 43082
   m_LocalBounds:
     m_Center: {x: 0, y: -0.1845285, z: 0}
     m_Extent: {x: 0.19957733, y: 0.49913678, z: 0}
