@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
 using UnityEngine.Rendering.Universal;
+using UnityEngine.SceneManagement;
 
 public class PlayerSpotlight : MonoBehaviour
 {
@@ -23,8 +24,8 @@ public class PlayerSpotlight : MonoBehaviour
         if(im.flyCount == -1)
         {
             Destroy(gameObject);
-            
-            
+            SceneManager.LoadScene(0);
+
         }
     }
 
