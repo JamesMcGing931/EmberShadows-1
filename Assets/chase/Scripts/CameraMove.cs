@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Camera : MonoBehaviour
+public class CameraMove : MonoBehaviour
 {
     public Transform target; // The target to follow (usually the player)
     public float smoothSpeed = 0.125f; // The smoothness of the camera movement
