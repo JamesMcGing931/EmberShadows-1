@@ -20,7 +20,7 @@ public class enemyCollide : MonoBehaviour
         }
         if(other.CompareTag("player") && im.powerUp == 1  )
         {
-            EnemyDead();
+            //EnemyDead();
         }
         
     }
@@ -68,15 +68,15 @@ public class enemyCollide : MonoBehaviour
         }
     }
 
-    public void EnemyDead()
-    {
-        im.score += 10;
-        Debug.Log("score: " + im.score);
-        scoreText.text = im.score.ToString();
-        gameObject.SetActive(false);
+    //public void EnemyDead()
+    //{
+       // im.score += 10;
+        //Debug.Log("score: " + im.score);
+       // scoreText.text = im.score.ToString();
+       // gameObject.SetActive(false);
 
-        im.enemyTime += 5.0f;
-        im.flyCount--;
-        im.evadeTime = 0;
-    }
+       // im.enemyTime += 5.0f;
+       // im.flyCount--;
+       // im.evadeTime = 0;
+   // }
 }

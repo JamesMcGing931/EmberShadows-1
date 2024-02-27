@@ -31,7 +31,7 @@ public class EnemyMoveTowards : MonoBehaviour
         }
         if(im.flyCount > 3)
         {
-            speed = 4f;
+            speed = 4.5f;
         }
         if(im.powerUp == 1 && im.evadeTime <= 0)
         {
