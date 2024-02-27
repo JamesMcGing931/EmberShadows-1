@@ -10,6 +10,7 @@ public class ItemManager : MonoBehaviour
     public int powerUp;
     public float enemyTime;
     public float evadeTime;
+    public float playerDead;
     // Start is called before the first frame update
     void Start()
     {

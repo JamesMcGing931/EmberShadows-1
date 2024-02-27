@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class EnemyMoveTowards : MonoBehaviour
 {
+    public Animator animator;
     public ItemManager im;
     public GameObject target;
     public float speed = 0.0f;
@@ -16,6 +17,22 @@ public class EnemyMoveTowards : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(im.flyCount == 1)
+        {
+            speed = 2.5f;
+        }
+        if(im.flyCount == 2)
+        {
+            speed = 3f;
+        }
+        if(im.flyCount == 3)
+        {
+            speed = 3.5f;
+        }
+        if(im.flyCount > 3)
+        {
+            speed = 4f;
+        }
         if(im.powerUp == 1 && im.evadeTime <= 0)
         {
             speed = 2.5f;
@@ -47,7 +64,8 @@ public class EnemyMoveTowards : MonoBehaviour
     Vector3 enemyMoveTowards(Vector3 pos, float sd)
     {
         
-
+        animator.SetBool("Right", true);
+        animator.SetBool("Left", false);
         Vector3 targetPosition = pos;
         Vector3 enemyPosition = transform.position;
 
@@ -72,6 +90,9 @@ public class EnemyMoveTowards : MonoBehaviour
 
     public void Evade()
     {
+        animator.SetBool("Left", true);
+        animator.SetBool("Right", false);
+        
         float speedDelta = speed * Time.deltaTime;
         if (Mathf.Abs(transform.position.x - target.transform.position.x) > -speedDelta)
         {

@@ -112,7 +112,6 @@ GameObject:
   m_Component:
   - component: {fileID: 548428145186454404}
   - component: {fileID: 3296152367268007033}
-  - component: {fileID: 2641857671074200199}
   - component: {fileID: 2354805137979491299}
   - component: {fileID: 2222318972481409675}
   m_Layer: 0
@@ -191,24 +190,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2641857671074200199
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2177244731426935122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1eaee982eed22fc4db9e507516adad96, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  im: {fileID: 0}
-  spotlightRadiusIncrease: 1
-  player: {fileID: 9129100037149785227, guid: 39fb10c5f8a982346b6ce3c2d7cf3956, type: 3}
-  interactionPrompt: {fileID: 6033351385101539189}
-  fireflyText: {fileID: 0}
-  scoreText: {fileID: 0}
 --- !u!95 &2354805137979491299
 Animator:
   serializedVersion: 5
