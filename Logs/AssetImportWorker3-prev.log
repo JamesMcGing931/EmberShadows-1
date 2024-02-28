@@ -1,0 +1,327 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 32477 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/a00307309/Desktop/EmberShadows
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+63019
+Successfully changed project path to: C:/Users/a00307309/Desktop/EmberShadows
+C:/Users/a00307309/Desktop/EmberShadows
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12052] Host "[IP] 192.168.23.136 [Port] 0 [Flags] 2 [Guid] 3683017644 [EditorId] 3683017644 [Version] 1048832 [Id] WindowsEditor(7,AT-X207-09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12052] Host "[IP] 192.168.23.136 [Port] 0 [Flags] 2 [Guid] 3683017644 [EditorId] 3683017644 [Version] 1048832 [Id] WindowsEditor(7,AT-X207-09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 10.47 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/a00307309/Desktop/EmberShadows/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Vendor:   NVIDIA
+    VRAM:     10067 MB
+    Driver:   31.0.15.2824
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009118 seconds.
+- Loaded All Assemblies, in  0.379 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.255 seconds
+Domain Reload Profiling: 632ms
+	BeginReloadAssembly (122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (119ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (122ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (255ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (194ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.823 seconds
+Refreshing native plugins compatible for Editor in 5.96 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.004 seconds
+Domain Reload Profiling: 1823ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (555ms)
+		LoadAssemblies (382ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (268ms)
+			TypeCache.Refresh (208ms)
+				TypeCache.ScanAssembly (187ms)
+			ScanForSourceGeneratedMonoScriptInfo (41ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1004ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (764ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (169ms)
+			ProcessInitializeOnLoadAttributes (495ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 6.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5727 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 111 unused Assets / (0.9 MB). Loaded Objects now: 6174.
+Memory consumption went from 224.6 MB to 223.6 MB.
+Total: 9.923100 ms (FindLiveObjects: 0.867300 ms CreateObjectMapping: 1.130700 ms MarkObjects: 7.133100 ms  DeleteObjects: 0.790500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1207904.281999 seconds.
+  path: Assets/Jason/Jason/RA_Atlantis_32.asset
+  artifactKey: Guid(5a08870b029e2254e980a704d08b0998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jason/Jason/RA_Atlantis_32.asset using Guid(5a08870b029e2254e980a704d08b0998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c46b5aa8f699c35cceb3855a4ea701e') in 0.059151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Jason/Jason/Scenes/RA_Atlantis_56.asset
+  artifactKey: Guid(dfb177af6cb367b45b384469f45bdb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jason/Jason/Scenes/RA_Atlantis_56.asset using Guid(dfb177af6cb367b45b384469f45bdb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6f195c1d3819571e8a17eaa47ff9f2') in 0.056142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Jason/Jason/Scenes/RA_Atlantis_54.asset
+  artifactKey: Guid(e935db9f91b9dfd46b2f64cae4c06a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jason/Jason/Scenes/RA_Atlantis_54.asset using Guid(e935db9f91b9dfd46b2f64cae4c06a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e66d8f3ff3a49fd6b43e2d1922873e2') in 0.014705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Jason
+  artifactKey: Guid(f47aa9b98856df945b4daacc2ceb78dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jason using Guid(f47aa9b98856df945b4daacc2ceb78dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1606ea2543bb339ba510f0c0568abe6') in 0.000520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Jason/Jason/Scenes/RA_Atlantis_47.asset
+  artifactKey: Guid(1c03ba673fcb02346a5eea6ab4091fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jason/Jason/Scenes/RA_Atlantis_47.asset using Guid(1c03ba673fcb02346a5eea6ab4091fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60931582570abf665a648409613ac5fd') in 0.015336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Jason/Jason/Scenes/RA_Atlantis_60.asset
+  artifactKey: Guid(65130426abf8af141a668caa6c70382f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jason/Jason/Scenes/RA_Atlantis_60.asset using Guid(65130426abf8af141a668caa6c70382f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eebc240a57ce337990c7fa1ca97a4ef') in 0.014430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Jason/Jason/Scenes/RA_Atlantis_31.asset
+  artifactKey: Guid(89d887400ad04fe4cb400825fb0e19d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jason/Jason/Scenes/RA_Atlantis_31.asset using Guid(89d887400ad04fe4cb400825fb0e19d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9dff6210a77893e4e621f8ddbbe975') in 0.016516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Jason/Jason/Scenes/RA_Atlantis_0.asset
+  artifactKey: Guid(1e8da5f71eaeb534d892cd7f58e6e03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jason/Jason/Scenes/RA_Atlantis_0.asset using Guid(1e8da5f71eaeb534d892cd7f58e6e03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f597c098840898cca2cbb926f2f1bc85') in 0.016047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Jason/Jason/Scenes/RA_Atlantis_13.asset
+  artifactKey: Guid(31572a93b9a6de740a216216e3b22bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jason/Jason/Scenes/RA_Atlantis_13.asset using Guid(31572a93b9a6de740a216216e3b22bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bec974143d70fef93177cadb8f0b6d') in 0.012091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Jason/Jason/RA_Atlantis_23.asset
+  artifactKey: Guid(bfc973708d982b041a4cf9db3cfb6d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jason/Jason/RA_Atlantis_23.asset using Guid(bfc973708d982b041a4cf9db3cfb6d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fce8f867d5f028968c002fd3dd27c2') in 0.003186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Jason/Jason/RA_Atlantis_19.asset
+  artifactKey: Guid(67cc23ae09f598a4f9b425b7a35fadd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jason/Jason/RA_Atlantis_19.asset using Guid(67cc23ae09f598a4f9b425b7a35fadd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e720c45708adf7d72ca7d12ff7acdf81') in 0.002794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jason/Jason/RA_Atlantis_68.asset
+  artifactKey: Guid(2acfd64ef112bb34bb5977709c430193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jason/Jason/RA_Atlantis_68.asset using Guid(2acfd64ef112bb34bb5977709c430193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df1dd7c48f1ab93b057cb6cd9d5da65') in 0.003189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jason/Jason/RA_Atlantis_0.asset
+  artifactKey: Guid(9bff2501b98dac14d8c0d2169e7ae5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jason/Jason/RA_Atlantis_0.asset using Guid(9bff2501b98dac14d8c0d2169e7ae5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e22bfe0af145aac9f73bf88fac9c013') in 0.004848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Jason/Jason/Scenes/RA_Atlantis_4.asset
+  artifactKey: Guid(31ada0bfc0d40cd4fbb609f2e3b7908e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jason/Jason/Scenes/RA_Atlantis_4.asset using Guid(31ada0bfc0d40cd4fbb609f2e3b7908e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea854f56efbaca745700abe7a5f3f7e5') in 0.014440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Jason/Jason/RA_Atlantis_34.asset
+  artifactKey: Guid(d7ba0410b3737f4468e0c725fc1d3ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jason/Jason/RA_Atlantis_34.asset using Guid(d7ba0410b3737f4468e0c725fc1d3ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ad0b907942e6c032d066aecc3b22a6') in 0.002837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Jason/Jason/RA_Atlantis_10.asset
+  artifactKey: Guid(62d173f3b07f30149befd2adadb54d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jason/Jason/RA_Atlantis_10.asset using Guid(62d173f3b07f30149befd2adadb54d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3667284c51bad9c9a4349ea7e6d43603') in 0.002831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Jason/Jason/Scenes/RA_Atlantis_2.asset
+  artifactKey: Guid(314511db1ab690341b1a51a2e1536422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jason/Jason/Scenes/RA_Atlantis_2.asset using Guid(314511db1ab690341b1a51a2e1536422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c0f473eb97ad39f8e670341b823cb8') in 0.025166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Jason/Jason/Scenes/RA_Atlantis_30.asset
+  artifactKey: Guid(70c3a25294405d04499da84f8054172f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jason/Jason/Scenes/RA_Atlantis_30.asset using Guid(70c3a25294405d04499da84f8054172f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab059aae5e4a56f46b4151b999c290de') in 0.014561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
