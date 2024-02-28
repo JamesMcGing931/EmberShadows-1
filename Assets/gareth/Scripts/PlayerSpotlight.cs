@@ -32,7 +32,7 @@ public class PlayerSpotlight : MonoBehaviour
         if(im.flyCount < 0 && im.playerDead < 1)
         {
             Destroy(gameObject);
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
         }
     }
