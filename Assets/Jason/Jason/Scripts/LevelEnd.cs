@@ -47,7 +47,7 @@ public class LevelEnd : MonoBehaviour
         if (inRange && Input.GetKeyDown(KeyCode.E))
         {
             CollectItem();
-            //Invoke(nameof(StopCutscene), 2f);
+            Invoke(nameof(StopCutscene), 2f);
         }
 
 
