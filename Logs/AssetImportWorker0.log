@@ -15,7 +15,7 @@ C:/Users/garet/OneDrive/Desktop/EmberShadows
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58302
+59098
 Successfully changed project path to: C:/Users/garet/OneDrive/Desktop/EmberShadows
 C:/Users/garet/OneDrive/Desktop/EmberShadows
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/garet/OneDrive/Desktop/EmberShadows
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24736] Host "[IP] 172.20.10.2 [Port] 0 [Flags] 2 [Guid] 265078137 [EditorId] 265078137 [Version] 1048832 [Id] WindowsEditor(7,GarethsLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [9884] Host "[IP] 172.20.10.2 [Port] 0 [Flags] 2 [Guid] 691107191 [EditorId] 691107191 [Version] 1048832 [Id] WindowsEditor(7,GarethsLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [24736] Host "[IP] 172.20.10.2 [Port] 0 [Flags] 2 [Guid] 265078137 [EditorId] 265078137 [Version] 1048832 [Id] WindowsEditor(7,GarethsLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9884] Host "[IP] 172.20.10.2 [Port] 0 [Flags] 2 [Guid] 691107191 [EditorId] 691107191 [Version] 1048832 [Id] WindowsEditor(7,GarethsLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 157.78 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 35.43 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006393 seconds.
-- Loaded All Assemblies, in  1.696 seconds
+Registered in 0.007291 seconds.
+- Loaded All Assemblies, in  0.512 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.264 seconds
-Domain Reload Profiling: 1958ms
-	BeginReloadAssembly (158ms)
+- Finished resetting the current domain, in  0.409 seconds
+Domain Reload Profiling: 919ms
+	BeginReloadAssembly (168ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (337ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (1133ms)
-		LoadAssemblies (157ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (209ms)
+		LoadAssemblies (165ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1131ms)
-			TypeCache.Refresh (1129ms)
-				TypeCache.ScanAssembly (863ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (180ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (264ms)
+	FinalizeReload (410ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (204ms)
+		SetupLoadedEditorAssemblies (316ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (132ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (208ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 1958ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.415 seconds
-Refreshing native plugins compatible for Editor in 8.16 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.855 seconds
+Refreshing native plugins compatible for Editor in 8.82 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.669 seconds
-Domain Reload Profiling: 3079ms
-	BeginReloadAssembly (132ms)
+- Finished resetting the current domain, in  0.885 seconds
+Domain Reload Profiling: 1733ms
+	BeginReloadAssembly (184ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (2206ms)
-		LoadAssemblies (2043ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (561ms)
+		LoadAssemblies (428ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (242ms)
-			TypeCache.Refresh (202ms)
-				TypeCache.ScanAssembly (124ms)
-			ScanForSourceGeneratedMonoScriptInfo (26ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (670ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (192ms)
+				TypeCache.ScanAssembly (175ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (885ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (502ms)
+		SetupLoadedEditorAssemblies (688ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (333ms)
-			ProcessInitializeOnLoadMethodAttributes (77ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (469ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 8.63 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 8.13 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5728 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 111 unused Assets / (0.9 MB). Loaded Objects now: 6175.
-Memory consumption went from 224.5 MB to 223.6 MB.
-Total: 4.518700 ms (FindLiveObjects: 0.628700 ms CreateObjectMapping: 0.252600 ms MarkObjects: 3.225800 ms  DeleteObjects: 0.410700 ms)
+Memory consumption went from 224.4 MB to 223.4 MB.
+Total: 7.208400 ms (FindLiveObjects: 0.568600 ms CreateObjectMapping: 0.452600 ms MarkObjects: 5.392500 ms  DeleteObjects: 0.793100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -181,399 +181,265 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1273986.444000 seconds.
-  path: Assets/Jason/Jason/Animation/cutscene.controller
-  artifactKey: Guid(43152f92ff4b4104299958ff9bd37fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jason/Jason/Animation/cutscene.controller using Guid(43152f92ff4b4104299958ff9bd37fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cef1716d914f9a325ac5f4e6ef5e88a') in 0.020521 seconds
+  Time since last request: 1287295.315053 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 3/Style 3 Icon 328.png
+  artifactKey: Guid(5767423ee648c074c83901cd792733f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 3/Style 3 Icon 328.png using Guid(5767423ee648c074c83901cd792733f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a736c538670c52b15b3bc2e052e346') in 0.120391 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.492 seconds
-Refreshing native plugins compatible for Editor in 7.47 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.568 seconds
-Domain Reload Profiling: 2055ms
-	BeginReloadAssembly (161ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (262ms)
-		LoadAssemblies (302ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (38ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1568ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (457ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (310ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 7.60 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5576 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (0.9 MB). Loaded Objects now: 6194.
-Memory consumption went from 198.3 MB to 197.3 MB.
-Total: 4.904700 ms (FindLiveObjects: 0.630000 ms CreateObjectMapping: 0.492800 ms MarkObjects: 3.386700 ms  DeleteObjects: 0.393800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.471 seconds
-Refreshing native plugins compatible for Editor in 7.70 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.774 seconds
-Domain Reload Profiling: 2241ms
-	BeginReloadAssembly (155ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (241ms)
-		LoadAssemblies (299ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1774ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (568ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (94ms)
-			ProcessInitializeOnLoadAttributes (383ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 8.30 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5576 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (0.9 MB). Loaded Objects now: 6211.
-Memory consumption went from 198.3 MB to 197.4 MB.
-Total: 4.617200 ms (FindLiveObjects: 0.509400 ms CreateObjectMapping: 0.425900 ms MarkObjects: 3.184700 ms  DeleteObjects: 0.496300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 431.581020 seconds.
-  path: Assets/gareth/Animations/Firefly.controller
-  artifactKey: Guid(9ace670ac9e67174ba292b9aa54bc6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/gareth/Animations/Firefly.controller using Guid(9ace670ac9e67174ba292b9aa54bc6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27c8b2abfc8de7bea69847fcb253118') in 0.031003 seconds
+  Time since last request: 0.000038 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 3/Style 3 Icon 290.png
+  artifactKey: Guid(c1ea150bb2f7acf4d9625d13f62cdcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 3/Style 3 Icon 290.png using Guid(c1ea150bb2f7acf4d9625d13f62cdcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265258b63e923e8028dcc19a698210d6') in 0.022474 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.467 seconds
-Refreshing native plugins compatible for Editor in 8.25 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.751 seconds
-Domain Reload Profiling: 2214ms
-	BeginReloadAssembly (153ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (242ms)
-		LoadAssemblies (299ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (16ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1752ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (556ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (363ms)
-			ProcessInitializeOnLoadMethodAttributes (73ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 9.09 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5576 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (0.9 MB). Loaded Objects now: 6228.
-Memory consumption went from 198.3 MB to 197.4 MB.
-Total: 6.643200 ms (FindLiveObjects: 0.462900 ms CreateObjectMapping: 0.466100 ms MarkObjects: 4.993600 ms  DeleteObjects: 0.719400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.465 seconds
-Refreshing native plugins compatible for Editor in 8.39 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.811 seconds
-Domain Reload Profiling: 2271ms
-	BeginReloadAssembly (150ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (250ms)
-		LoadAssemblies (307ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1811ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (590ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (112ms)
-			ProcessInitializeOnLoadAttributes (382ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 7.71 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5576 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (0.9 MB). Loaded Objects now: 6245.
-Memory consumption went from 198.3 MB to 197.4 MB.
-Total: 4.882600 ms (FindLiveObjects: 0.420200 ms CreateObjectMapping: 0.383700 ms MarkObjects: 3.548700 ms  DeleteObjects: 0.528200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.458 seconds
-Refreshing native plugins compatible for Editor in 7.58 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.639 seconds
-Domain Reload Profiling: 2091ms
-	BeginReloadAssembly (146ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (245ms)
-		LoadAssemblies (301ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (16ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1639ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (451ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (95ms)
-			ProcessInitializeOnLoadAttributes (282ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 7.49 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5576 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (0.9 MB). Loaded Objects now: 6262.
-Memory consumption went from 198.3 MB to 197.4 MB.
-Total: 5.838200 ms (FindLiveObjects: 0.870900 ms CreateObjectMapping: 0.574800 ms MarkObjects: 3.784700 ms  DeleteObjects: 0.606600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 1505.056854 seconds.
-  path: Assets/Jason/Jason/Scenes/MazeLevel.unity
-  artifactKey: Guid(725e0917966f66549bef107a8aa4019b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jason/Jason/Scenes/MazeLevel.unity using Guid(725e0917966f66549bef107a8aa4019b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c7a541bf7236c2703c7c8ef0424085') in 0.002171 seconds
+  Time since last request: 48.589923 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 2/Style 2 Icon 037.png
+  artifactKey: Guid(748478a32e3eda440ab22df2f6baa02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 2/Style 2 Icon 037.png using Guid(748478a32e3eda440ab22df2f6baa02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce8e132fdff61b8757b2e63c989cf88') in 0.034966 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.882 seconds
-Refreshing native plugins compatible for Editor in 8.40 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 20.082 seconds
-Domain Reload Profiling: 22960ms
-	BeginReloadAssembly (201ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (158ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (2472ms)
-		LoadAssemblies (2570ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (22ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (20082ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (443ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (79ms)
-			ProcessInitializeOnLoadAttributes (292ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
+Received Import Request.
+  Time since last request: 0.008351 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 2/Style 2 Icon 042.png
+  artifactKey: Guid(1abfc240fd21c8942a4429f2364c5d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 2/Style 2 Icon 042.png using Guid(1abfc240fd21c8942a4429f2364c5d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a84a7d6f0a80a39abcbcfe557f4aba') in 0.028077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 2/Style 2 Icon 049.png
+  artifactKey: Guid(84fe466776317444ba55ce9f18843f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 2/Style 2 Icon 049.png using Guid(84fe466776317444ba55ce9f18843f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3937e7838fa3f2fa276afa1b639e7b2b') in 0.030493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 2/Style 2 Icon 043.png
+  artifactKey: Guid(e7bfdfabab35d214495fe0b2624eafed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 2/Style 2 Icon 043.png using Guid(e7bfdfabab35d214495fe0b2624eafed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394b4cf9c77fc762aff117bcd9e72d95') in 0.020856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 2/Style 2 Icon 041.png
+  artifactKey: Guid(acea3d75b7aac2f4e9029075b326f97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 2/Style 2 Icon 041.png using Guid(acea3d75b7aac2f4e9029075b326f97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5193b5b616046cc8ed7024aa8edc199f') in 0.021711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 2/Style 2 Icon 045.png
+  artifactKey: Guid(73ab30f0fcf36e245bff339746986325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 2/Style 2 Icon 045.png using Guid(73ab30f0fcf36e245bff339746986325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a4f3e33082ddbf111134da8142b948') in 0.019546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 2/Style 2 Icon 047.png
+  artifactKey: Guid(2781f15fe5eb2b142bfa8131dbe005c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 2/Style 2 Icon 047.png using Guid(2781f15fe5eb2b142bfa8131dbe005c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979ae40cd62b535a2ba6bd599fe667c4') in 0.021355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 2/Style 2 Icon 048.png
+  artifactKey: Guid(2f882b6f266adc240a6d648b4b6c6fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 2/Style 2 Icon 048.png using Guid(2f882b6f266adc240a6d648b4b6c6fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc306444a8b55ea4d00e921f50e05990') in 0.022356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.187972 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 038.png
+  artifactKey: Guid(3c529a90806f82d448fc36533f061fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 038.png using Guid(3c529a90806f82d448fc36533f061fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6a5da8c0c98cd779536b5c1433787a') in 0.037305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 042.png
+  artifactKey: Guid(909458ad28492684aa25967af1df2de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 042.png using Guid(909458ad28492684aa25967af1df2de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69cad9fece49a26650d20c35c9b8ae4d') in 0.045685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 052.png
+  artifactKey: Guid(c7a405dbc23cbfe4f853a03e535d28c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 052.png using Guid(c7a405dbc23cbfe4f853a03e535d28c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7fbb83479d57d6f0213c3f9edcc5427') in 0.030686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 051.png
+  artifactKey: Guid(2e07c555826e1b14bb26201fa938d2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 051.png using Guid(2e07c555826e1b14bb26201fa938d2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a519b0d18563986fa10bbb5e75ad83') in 0.027701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 045.png
+  artifactKey: Guid(dafe01be50b35ea4689f7004fd228a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 045.png using Guid(dafe01be50b35ea4689f7004fd228a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c76865fa39c903b3231dfc27a0c147') in 0.026072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 044.png
+  artifactKey: Guid(f122eb0df8922794784fb4a5f044564c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 044.png using Guid(f122eb0df8922794784fb4a5f044564c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c222dfe3ae9aa74ef18962deb0958b67') in 0.024275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.253821 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 055.png
+  artifactKey: Guid(20060561253ebd241be610aa4195c4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 055.png using Guid(20060561253ebd241be610aa4195c4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2781178860b5c28653a9119c2c2337') in 0.021406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 060.png
+  artifactKey: Guid(585d5bdee7f9e91429a8e0e91afaea31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 060.png using Guid(585d5bdee7f9e91429a8e0e91afaea31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4cd152b95d090f7013054fa6dfa103d') in 0.024995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 065.png
+  artifactKey: Guid(b505fe3f8e07ce449b58e100ce7a940d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 065.png using Guid(b505fe3f8e07ce449b58e100ce7a940d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ef5e773d532b151df41735ab485ab0') in 0.022306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.048579 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 068.png
+  artifactKey: Guid(cb2590018ebec1040a6ed7482566d86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 068.png using Guid(cb2590018ebec1040a6ed7482566d86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8a872920c39b02fe20a65cb035f9ca') in 0.025663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 073.png
+  artifactKey: Guid(52a71c12f981eb94896d28f4975dc889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 073.png using Guid(52a71c12f981eb94896d28f4975dc889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6d2c6a6628598f795002a2ba692ebb') in 0.024918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 078.png
+  artifactKey: Guid(2830de6f07c48c74382382a9282c24f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 078.png using Guid(2830de6f07c48c74382382a9282c24f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb9f0f980d1c64f567bb3d679e8c920') in 0.019581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.279921 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 081.png
+  artifactKey: Guid(6c94ce2d0d8f3424d8fe3f8cbc8aeb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 081.png using Guid(6c94ce2d0d8f3424d8fe3f8cbc8aeb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c456e1bde0e330d72d56947f16eaa360') in 0.034610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 090.png
+  artifactKey: Guid(51107fac10670bb4c8f006d0855a66fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 090.png using Guid(51107fac10670bb4c8f006d0855a66fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f13c5eb32edccef031476b9a1fb6e8') in 0.031441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 091.png
+  artifactKey: Guid(b880500180ba63b4cb8e4a1cae9e3e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 091.png using Guid(b880500180ba63b4cb8e4a1cae9e3e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ab68be9e42bb1a4562c6071a9b629d') in 0.025710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 104.png
+  artifactKey: Guid(8e28bacb37ed7f0449be531637fbdd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 104.png using Guid(8e28bacb37ed7f0449be531637fbdd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb339521929895ecbb5325f519f07f7') in 0.024209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 098.png
+  artifactKey: Guid(c767ea58fd711ea489975a3c35b16e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 098.png using Guid(c767ea58fd711ea489975a3c35b16e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc0b57ebb78d8fb6b8d7c0161178925') in 0.024700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.179388 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 107.png
+  artifactKey: Guid(296128da030896a499eadb7cd7f3daca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 107.png using Guid(296128da030896a499eadb7cd7f3daca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8412b6bc64e93aa9853d52533ef89fa') in 0.022547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 112.png
+  artifactKey: Guid(5416526ceb3de8d4f98de228a336bd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 112.png using Guid(5416526ceb3de8d4f98de228a336bd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa5a5493d5203ae080d0532a5240cd7') in 0.023991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 117.png
+  artifactKey: Guid(76510b9d7b1d93440962d6063b34ceb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 117.png using Guid(76510b9d7b1d93440962d6063b34ceb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd09986331025583e4bb42844eaee65') in 0.022233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.046505 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 120.png
+  artifactKey: Guid(e2c5024f458a3034a924b178b95b1364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 120.png using Guid(e2c5024f458a3034a924b178b95b1364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367d540674cf909f76188620a0ef8fb8') in 0.023876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 125.png
+  artifactKey: Guid(fcbe1a165de538f4cbc675a2dba308a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 125.png using Guid(fcbe1a165de538f4cbc675a2dba308a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66b9a26cd81a4030546d1f09d9b3a17') in 0.022711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 130.png
+  artifactKey: Guid(7c368e4b7e63ed44f86bacaf2c49f294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gareth/Pixelart Graphical User Interface/Pixelart Graphical User Interface/Icons Style 1/Style 1 Icon 130.png using Guid(7c368e4b7e63ed44f86bacaf2c49f294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2923c024d6974622e28b0b5710836f3d') in 0.023074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
