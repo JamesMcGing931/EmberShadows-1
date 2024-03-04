@@ -10,8 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6536665150740710603}
   - component: {fileID: 1649820776267270064}
-  - component: {fileID: 3283614080284955134}
-  - component: {fileID: 7942110844630828043}
   m_Layer: 0
   m_Name: Sign
   m_TagString: Untagged
@@ -86,40 +84,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &3283614080284955134
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8633552917632149860}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.4614358, y: 0.43786287, z: 0.2}
-  m_Center: {x: -0.00000007947286, y: -0.029465755, z: 0}
---- !u!114 &7942110844630828043
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8633552917632149860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ddaf59870c222e47b9cee1089f7577c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogBox: {fileID: 0}
-  dialogText: {fileID: 0}
-  dialog: 
-  playerInRange: 0

@@ -9,6 +9,7 @@ public class Gravestone : MonoBehaviour
     public Text dialogText;
     public string dialog;
     public bool playerInRange;
+    public GameObject interactionPrompt;
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +41,7 @@ public class Gravestone : MonoBehaviour
         if (other.CompareTag("player"))
         {
             playerInRange = true;
+             ShowInteractionPrompt(true);
         }
     }
 
@@ -50,6 +52,13 @@ public class Gravestone : MonoBehaviour
             playerInRange = false;
             dialogBox.SetActive(false);
             Time.timeScale = 1;
+            ShowInteractionPrompt(false);
         }
+    }
+      
+
+    void ShowInteractionPrompt(bool show)
+    {
+        interactionPrompt.SetActive(show);
     }
 }

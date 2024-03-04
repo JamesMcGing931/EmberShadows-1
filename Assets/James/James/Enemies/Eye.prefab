@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 5944930392154522017}
   - component: {fileID: 8259248601164152679}
   - component: {fileID: 4559153538109265404}
-  - component: {fileID: 5519339754601287792}
-  - component: {fileID: 1012347053136767055}
+  - component: {fileID: 8177025284527027047}
+  - component: {fileID: 8877899508344676964}
   m_Layer: 0
   m_Name: Eye
   m_TagString: Untagged
@@ -159,7 +159,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.012625456}
   m_Size: {x: 1.1969905, y: 1.2727427}
   m_Direction: 0
---- !u!114 &5519339754601287792
+--- !u!114 &8177025284527027047
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,11 +168,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 3230541747651568948}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b4979d885576b8478be3fd2b7cc1a15, type: 3}
+  m_Script: {fileID: 11500000, guid: e47c8873ef31f424e98a169e4ca3c7b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
---- !u!114 &1012347053136767055
+  im: {fileID: 0}
+  spotlightRadiusIncrease: 1
+  player: {fileID: 0}
+  fireflyText: {fileID: 0}
+--- !u!114 &8877899508344676964
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -185,3 +188,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyTimer: 1
+  im: {fileID: 0}

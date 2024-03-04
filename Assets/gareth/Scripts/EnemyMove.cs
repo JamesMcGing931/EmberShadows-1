@@ -19,15 +19,15 @@ public class EnemyMoveTowards : MonoBehaviour
     {
         if(im.flyCount == 1)
         {
-            speed = 2.5f;
+            speed = 3f;
         }
         if(im.flyCount == 2)
         {
-            speed = 3f;
+            speed = 3.5f;
         }
         if(im.flyCount == 3)
         {
-            speed = 3.5f;
+            speed = 4f;
         }
         if(im.flyCount > 3)
         {

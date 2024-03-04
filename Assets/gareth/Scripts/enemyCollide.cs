@@ -9,7 +9,7 @@ public class enemyCollide : MonoBehaviour
     public float spotlightRadiusIncrease = 1f;
     public GameObject player;
     public Text fireflyText;
-    public Text scoreText;
+    // public Text scoreText;
 
 
     private void OnTriggerEnter2D(Collider2D other)

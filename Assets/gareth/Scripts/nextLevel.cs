@@ -30,22 +30,23 @@ public class nextLevel : MonoBehaviour
 
     private void LoadNextLevel()
     {
-        // Get the index of the next scene
-        int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+        // // Get the index of the next scene
+        // int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
 
-        // Check if there is a scene at the next index
-        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
-        {
-            // Load the next scene
-            SceneManager.LoadScene(nextSceneIndex);
-        }
-        else
-        {
-            // If there are no more scenes, restart the game or go to the main menu
-            // Example:
-            SceneManager.LoadScene(0); // Loads the first scene (assuming it's the main menu)
+        // // Check if there is a scene at the next index
+        // if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+        // {
+        //     // Load the next scene
+        //     SceneManager.LoadScene(nextSceneIndex);
+        // }
+        // else
+        // {
+        //     // If there are no more scenes, restart the game or go to the main menu
+        //     // Example:
+        //     SceneManager.LoadScene(0); // Loads the first scene (assuming it's the main menu)
            
-        }
+        // }
+        SceneManager.LoadScene(1);
     }
 }
 

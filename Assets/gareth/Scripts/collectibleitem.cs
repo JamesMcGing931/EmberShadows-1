@@ -59,7 +59,7 @@ public class CollectableItem : MonoBehaviour
         im.flyCount++;
         Debug.Log("Items: " + im.flyCount);
         fireflyText.text = im.flyCount.ToString();
-        im.score += 5;
+        // im.score += 5;
 
         
 

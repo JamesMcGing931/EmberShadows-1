@@ -18,18 +18,20 @@ public class EnemySpawnerJ : MonoBehaviour
     private bool isSpawningEnabled = true;
     public ItemManager im;
     public Text enemyText;
+ 
 
     // Start is called before the first frame update
     void Start()
     {
         im.enemyCount = 10.0f;
+        enemyText.text = im.enemyCount.ToString();
         StartCoroutine(SpawnEnemy(swarmerInterval, swarmerPrefab, maxSwarmerCount, () => currentSwarmerCount++, () => currentSwarmerCount));
         StartCoroutine(SpawnEnemy(swarmerEyeInterval, swarmerEyePrefab, maxSwarmerEyeCount, () => currentSwarmerEyeCount++, () => currentSwarmerEyeCount));
     }
 
     void update()
     {
-        enemyText.text = im.enemyCount.ToString();
+
     }
 
     private IEnumerator SpawnEnemy(float interval, GameObject enemy, int maxCount, System.Action incrementCount, System.Func<int> getCurrentCount)
