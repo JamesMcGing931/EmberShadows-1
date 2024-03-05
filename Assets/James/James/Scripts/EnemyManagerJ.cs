@@ -19,6 +19,9 @@ public class EnemyManagerJ : MonoBehaviour
     public GameObject gate;
     public GameObject gateGrid;
 
+    public AudioSource enemySoundSource;
+    
+
 
 
 
@@ -36,6 +39,7 @@ public class EnemyManagerJ : MonoBehaviour
             im.health--;
             if (im.health <= 0 && !deathTriggered)
         {
+            enemySoundSource.Play();
 
             //Trigger Death Animation
             im.enemyCount--;

@@ -9,9 +9,12 @@ public class EnemyMoveTowards : MonoBehaviour
     public ItemManager im;
     public GameObject target;
     public float speed = 0.0f;
+
+    public AudioSource enemySound;
  
     void Start()
     {
+        enemySound.Play();
         im.evadeTime += 5.0f;
     }
     // Update is called once per frame
@@ -19,22 +22,23 @@ public class EnemyMoveTowards : MonoBehaviour
     {
         if(im.flyCount == 1)
         {
-            speed = 3f;
+            speed = 2.5f;
         }
         if(im.flyCount == 2)
         {
-            speed = 3.5f;
+            speed = 3f;
         }
         if(im.flyCount == 3)
         {
-            speed = 4f;
+            speed = 3.5f;
         }
         if(im.flyCount > 3)
         {
-            speed = 4.5f;
+            speed = 4f;
         }
         if(im.powerUp == 1 && im.evadeTime <= 0)
         {
+            enemySound.Play();
             speed = 2.5f;
             im.powerUp = 0;
         }
@@ -54,6 +58,7 @@ public class EnemyMoveTowards : MonoBehaviour
             im.evadeTime -= Time.deltaTime;
             if(im.evadeTime > 0)
             {
+                enemySound.Stop();
                 speed = 1.0f;
                 Evade();
             }
@@ -63,7 +68,7 @@ public class EnemyMoveTowards : MonoBehaviour
 
     Vector3 enemyMoveTowards(Vector3 pos, float sd)
     {
-        
+
         animator.SetBool("Right", true);
         animator.SetBool("Left", false);
         Vector3 targetPosition = pos;

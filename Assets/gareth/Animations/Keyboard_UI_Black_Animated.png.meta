@@ -139,7 +139,7 @@ TextureImporter:
         width: 26
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,7 +160,7 @@ TextureImporter:
         width: 26
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 4, z: 0, w: 6}
       outline: []
       physicsShape: []
@@ -181,7 +181,7 @@ TextureImporter:
         width: 26
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 3, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,6 +189,90 @@ TextureImporter:
       bones: []
       spriteID: 660a6be9331bfbf4ead831755749ce79
       internalID: 119444638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_UI_Black_Animated_4
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 610
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cca19982e9813746a021b287804840f
+      internalID: -1161521220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_UI_Black_Animated_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 546
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1143016dfb938534f92caa72f38cec1b
+      internalID: 953084446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_UI_Black_Animated_6
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 546
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95927225c02e5b34aa906ef8bb94941e
+      internalID: -1142030360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard_UI_Black_Animated_7
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 546
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc554fac509a20c449112ccc9d7ab598
+      internalID: 620708868
       vertices: []
       indices: 
       edges: []
@@ -208,6 +292,10 @@ TextureImporter:
       Keyboard_UI_Black_Animated_1: 1847116166
       Keyboard_UI_Black_Animated_2: 302663693
       Keyboard_UI_Black_Animated_3: 119444638
+      Keyboard_UI_Black_Animated_4: -1161521220
+      Keyboard_UI_Black_Animated_5: 953084446
+      Keyboard_UI_Black_Animated_6: -1142030360
+      Keyboard_UI_Black_Animated_7: 620708868
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -12,15 +12,20 @@ public class CollectableItem : MonoBehaviour
     private bool isCollected = false;
     private bool inRange = false;
     public Text fireflyText;
+
+    public AudioSource coinSoundSource;
+    public AudioClip[] coinSounds;
     //public Text scoreText;
     
 
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("player") && !isCollected)
         {
             inRange = true;
             ShowInteractionPrompt(true);
+            
         }
     }
 
@@ -52,6 +57,12 @@ public class CollectableItem : MonoBehaviour
 
     public void CollectItem()
     {
+        int randomIndex = Random.Range(0, coinSounds.Length);
+        AudioClip selectedSound = coinSounds[randomIndex];
+
+
+        coinSoundSource.clip = selectedSound;
+        coinSoundSource.Play();
         isCollected = true;
         IncreasePlayerSpotlightRadius();
         Debug.Log("Item collected.");
@@ -87,4 +98,6 @@ public class CollectableItem : MonoBehaviour
     {
         interactionPrompt.SetActive(show);
     }
+
+
 }

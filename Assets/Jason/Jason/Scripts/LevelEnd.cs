@@ -61,7 +61,7 @@ public class LevelEnd : MonoBehaviour
         gameObject.SetActive(false);
         portal.SetActive(true);
         camAnim.SetBool("cutscene", true);
-        Time.timeScale = 0;
+        //Time.timeScale = 0;
         //im.flyCount++;
         //Debug.Log("Items: " + im.flyCount);
         //fireflyText.text = im.flyCount.ToString();

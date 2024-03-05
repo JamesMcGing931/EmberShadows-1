@@ -13,6 +13,8 @@ public class ItemManager : MonoBehaviour
     public float playerDead;
     public float enemyCount;
     public float health = 1.0f;
+
+    
     // Start is called before the first frame update
     void Start()
     {
