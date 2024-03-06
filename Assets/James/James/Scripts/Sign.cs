@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Gravestone : MonoBehaviour
 {
     public GameObject dialogBox;
-    public Text dialogText;
+    //public Text dialogText;
     public string dialog;
     public bool playerInRange;
     public GameObject interactionPrompt;
@@ -30,7 +30,7 @@ public class Gravestone : MonoBehaviour
             else
             {
                 dialogBox.SetActive(true);
-                dialogText.text = dialog;
+                //dialogText.text = dialog;
                 Time.timeScale = 0; 
             }
         }

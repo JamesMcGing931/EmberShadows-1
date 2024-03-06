@@ -29,7 +29,7 @@ public class CameraSwapL : MonoBehaviour
 
     private void SwapCameras()
     {
-        if (inZone)
+        if (inZone && !Input.GetKeyDown(KeyCode.E))
         {
             defaultCamera.gameObject.SetActive(false);
             swapCamera.gameObject.SetActive(true);
@@ -38,6 +38,7 @@ public class CameraSwapL : MonoBehaviour
             swapCamera.Follow = player.transform;
             defaultCamera.Follow = null;
         }
+        
         else
         {
             defaultCamera.gameObject.SetActive(true);
